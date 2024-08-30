@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding:0 ;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #363636;
+}
+
+header{
+    background-color: #1c1c1c;
+    width: 300px;
+    height: 1200px;
+}
+
+header img{
+    margin-left: 70px;
+    margin-top: 10%;
+    border-radius: 100px;
+    object-fit: cover;
+    border: 0.7rem solid var(yellow);
+}
+
+header ul{
+    list-style: none;
+    padding: 1rem 3rem;
+}
+
+
+/*background: var(--yellow);*/
+
+header ul li a{
+    display: block;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    background: #333;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 5rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.name .burak{
+    color: white;
+    margin-left: 50px;
+    margin-top: 20%;
+}
+
+.name h2{
+    color: white;
+    margin-left: 25px;
+}
+
+.home {
+    margin-left: 400px;
+    margin-top: -50%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0 15rem;
+}
+.home p{
+    font-size: 2rem;
+    color: #eee;
+    padding: 1rem 0;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.home .btn_aboutme{
+    width: 150px;
+    height: 50px;
+    background-color: gray;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid gray;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.home .btn_aboutme:hover{
+    background: rgb(240, 240, 28);
+    color: black;
+}
+
+.home i{
+    margin-left: 15px;
+}
+
+
+.home .about{
+    font-size: 2rem;
+    color: #eee;
+    padding: 1rem 0;
+    text-align: justify;
+    margin-bottom: 10px;
+
+}
